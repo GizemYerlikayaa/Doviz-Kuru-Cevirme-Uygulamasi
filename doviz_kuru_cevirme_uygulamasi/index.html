@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Döviz Kuru Çevirme Uygulaması</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="main">
+        <div class="header-wrapper">
+          <h4>DÖVİZ KURU ÇEVİRİCİ</h4>
+        </div>
+
+        <div class="content-wrapper">
+          <input id="amount" type="number" placeholder="Miktar" />
+          <select id="firstCurrencyOption">
+            <option selected>USD</option>
+            <option>EUR</option>
+            <option>TRY</option>
+            <option>USD</option>
+            <option>JPY</option>
+            <option>BGD</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+          </select>
+          <i class="fa-solid fa-arrow-right"></i>
+          <select id="secondCurrencyOption">
+            <option selected>TRY</option>
+            <option>EUR</option>
+            <option>TRY</option>
+            <option>USD</option>
+            <option>JPY</option>
+            <option>BGD</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>
+            <option>HUF</option>
+            <option>PLN</option>
+          </select>
+          <input type="number" id="result" readonly placeholder="Sonuç" />
+          <span>Copyright-Gizem Yerlikaya</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

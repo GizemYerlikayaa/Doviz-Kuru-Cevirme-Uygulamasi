@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(160deg, #42c173, #4a2f7c);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+#container {
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(15px); /* buğu efekti */
+}
+.header-wrapper {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.header-wrapper h4 {
+  font-size: 1.5rem;
+  color: #4a2f7c;
+  letter-spacing: 1px;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content-wrapper input[type="number"],
+.content-wrapper select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.content-wrapper input[type="number"]:focus,
+.content-wrapper select:focus {
+  border-color: #ececec;
+  box-shadow: 0 0 0 2px rgba(132, 128, 139, 0.2);
+}
+.fa-arrow-right {
+  text-align: center;
+  color: #4a2f7c;
+  font-size: 1.2rem;
+}
+#result {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+span {
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #999;
+}
