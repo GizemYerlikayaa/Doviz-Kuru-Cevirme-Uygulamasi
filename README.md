@@ -1,5 +1,5 @@
 # Doviz-Kuru-Cevirme-Uygulamasi
-Javascript kullanılarak yazılmış gerçek zamanlı döviz kurlarını  FreeCurrencyAPI kullanarak kullanıcıların iki farklı para birimi arasında anında dönüşüm yapmasını sağlayan bir döviz kuru çevirici uygulamasıdır.
+Javascript kullanılarak yazılmış gerçek zamanlı döviz kurlarını  FreeCurrencyAPI üzerinden kullanıcıların iki farklı para birimi arasında anında dönüşüm yapmasını sağlayan bir döviz kuru çevirici uygulamasıdır.
 
 Özellikler:
 Gerçek zamanlı döviz kuru verisi
