@@ -11,5 +11,5 @@ Modern ve responsive tasarım
 Kullanılan Teknolojiler:
 HTML5
 CSS3
-JavaScript
+Vanilla JavaScript
 FreeCurrencyAPI
